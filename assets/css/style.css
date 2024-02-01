@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: lightgreen;
+  height: 5rem;
+  padding: 1.5rem;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+div {
+  margin-inline: 3em;
+}
+
+img {
+  margin: 2em 0;
+  height: 30rem;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px grey;
+}
