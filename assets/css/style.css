@@ -14,8 +14,21 @@ header {
   padding: 1.5rem;
 }
 
+main {
+  margin-inline: 20%;
+}
+
+section {
+  margin: 2em;
+}
+
 h1 {
   font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 1em;
 }
 
 div {
@@ -24,7 +37,36 @@ div {
 
 img {
   margin: 2em 0;
-  height: 30rem;
+  height: 25em;
   border-radius: 10px;
   box-shadow: 2px 5px 5px grey;
+}
+
+.num {
+  display: inline-block;
+  width: 13.6%;
+  height: 106px;
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.num h3 {
+  text-align: center;
+  font-size: 26px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+button {
+  margin: 2rem;
+  cursor: pointer;
+  width: 130px;
+  min-height: 36px;
+  font-weight: 700;
 }

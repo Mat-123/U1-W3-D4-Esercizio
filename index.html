@@ -3,16 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>La Ruota Della Fortuna</title>
+    <title>La Tombola Della Fortuna</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <header><h1>NEVER STOP GAMBLING</h1></header>
+    <header><h1>LA TOMBOLA DELLA FORTUNA</h1></header>
+    <!--titolo pagina-->
     <main>
+      <section>
+        <h2>Inserire i numeri della ruota desiderati</h2>
+        <input type="text" id="numsTombola" placeholder="Insert how much numbers you need" required />
+        <div><button type="submit">CONFERMA NUMERI</button></div>
+      </section>
+
+      <div class="numsContainer">
+        <h2>Cartellone dei Numeri</h2>
+        <div id="numbers"></div>
+        <!--Div dove verranno visualizzati i numeri che possono essere estratti-->
+        <div><button type="submit">LET'S GAMBLE!</button></div>
+        <!--bottone per avviare la funzione-->
+      </div>
       <nav><img src="./assets/imgs/NSG.jpeg" alt="never stop gambling motivational" /></nav>
-      <div>numeri della ruota</div>
-      <div>bottone per far partire la ruota</div>
     </main>
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>
